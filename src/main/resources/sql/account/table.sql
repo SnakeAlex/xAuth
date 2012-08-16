@@ -7,7 +7,4 @@ CREATE TABLE `{TABLE}` (
 	`registerdate` DATETIME NULL,
 	`registerip` CHAR(45) NULL,
 	`lastlogindate` DATETIME NULL,
-	`lastloginip` CHAR(45) NULL,
-	`active` TINYINT(1) UNSIGNED NOT NULL DEFAULT 0,
-	PRIMARY KEY (`id`)
-);
+	`lastloginip` CHAR(45) NULL,aa
